@@ -24,7 +24,7 @@
 5. (опційно) Підключіть допоміжний клас "ThreadPoolOptionsBuilder.h "для створення параметрів пулу: ```#include "inc/ThreadPool/ThreadPoolOptionsBuilder.h ```
 
 ## Використання
-```
+```cpp
 #include <ThreadPool.h>
 #include <ThreadPoolTask.h>
 #include <ThreadPoolOptionsBuilder.h>
