@@ -7,7 +7,7 @@
 
 
 std::map <Logging::LoggingLevel, bool > Logging::loggingLevels_
-{ { Logging::LoggingLevel::LOG_DEBUG, true },
+{ { Logging::LoggingLevel::LOG_DEBUG, false },
   { Logging::LoggingLevel::LOG_ERROR, true },
   { Logging::LoggingLevel::LOG_INFO, true },
   { Logging::LoggingLevel::LOG_WARNING, true },

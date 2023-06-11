@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.2)
 
-option(BUILD_TESTS "Build test" ON)
+option(BUILD_TESTS "Build test" OFF)
 
 set(PROJECT_NAME ThreadPool)
 set(THREAD_POOL_LIBRARY ThreadPool)
